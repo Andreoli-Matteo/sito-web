@@ -3,12 +3,35 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 </head>
 <body>
  
-<iframe src="home.html" name="iframe_a" height="800px" width="100%" title="Iframe Example"></iframe>
-  <p><a href="salute.html" target="iframe_a">W3Schools.com</a></p>
-
+    
+  <div class="header">
+    <h1>Chania</h1>
+  </div><
+  
+  <div class="row">
+    <div class="col-3 menu">
+      <ul>
+        <li><button onclick="buttonfuction1('home.html')"> HOME</button></li>
+        <li><button onclick="buttonfuction2('salute.html')">The City</button></li>
+        <li><button onclick="buttonfuction3()">The Island</button></li>
+        <li><button onclick="buttonfuction4()">The Food</button></li>
+      </ul>
+    </div>
+  
+    <div class="col-9">
+      <iframe id="myframe" src="home.html" name="iframe_a" height="800px" width="100%" title="Iframe Example"></iframe>
+      
+     
+    </div>
+  </div>
+  
+  
+  </body>
+  </html>
 </body>
 </html>
 

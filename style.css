@@ -53,4 +53,8 @@
   .menu li:hover {
     background-color: #0099cc;
   }
-  
+  button{
+    background-color: #33b5e5;
+    color: #ffffff;
+    border-color: #33b5e5;
+  }
