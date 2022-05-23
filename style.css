@@ -67,17 +67,34 @@
     right: 0;
   }
   
+  .oggetto1{
+    width:800px;
+    height:600px;
+  }
+  .oggetto2{
+    width:400px;
+    height:200px;
+  }
+  .oggetto3{
+    width:100;
+    height:300;
+  }
+
   div.absolute {
     float: left;
     top: 80px;
     right: 0;
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 220px;
     border: 3px solid #1eedf4;;
-    background-color: #1eedf4;
+    background-color: #f4b01e;
   }
-
-
+  img{
+    width: 1800px;
+    height: 300px;
+    
+  }
+  
   @media only screen and (min-width: 600px) {
     div.absolute {float: right;}
     /* For tablets: */
@@ -111,3 +128,5 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
+
