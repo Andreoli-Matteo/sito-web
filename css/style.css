@@ -68,18 +68,24 @@
   }
   
   .oggetto1{
-    width:800px;
-    height:600px;
+    width:100%
   }
   .oggetto2{
-    width:400px;
-    height:200px;
+    width:100%
   }
   .oggetto3{
-    width:100;
-    height:300;
+    width:60%;
+    
   }
-
+  .oggetto4{
+    width:60%;
+  }
+  .oggetto5{
+    width:60%;
+  }
+  .oggetto6{
+    width:60%
+  }
   div.absolute {
     float: left;
     top: 80px;
@@ -89,9 +95,12 @@
     border: 3px solid #1eedf4;;
     background-color: #f4b01e;
   }
+  .oggetto{
+    position: sticky;
+    top:0;
+  }
   img{
-    width: 1800px;
-    height: 300px;
+    width:100%
     
   }
   
