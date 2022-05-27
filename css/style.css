@@ -21,12 +21,6 @@
     font-family: "Lucida Sans", sans-serif;
   }
   
-  .header {
-    background-color: rgba(161, 30, 30, 0.829);
-    color: #ffffff;
-    padding: 15px;
-  }
-  
   
   button {
     border-radius: 4px;
@@ -66,12 +60,12 @@
     opacity: 1;
     right: 0;
   }
-  
+  /**/
   .oggetto1{
-    width:100%
+    width:60%
   }
   .oggetto2{
-    width:100%
+    width:60%
   }
   .oggetto3{
     width:60%;
@@ -90,9 +84,8 @@
     float: left;
     top: 80px;
     right: 0;
-    width: 300px;
-    height: 220px;
-    border: 3px solid #1eedf4;;
+    width: 200px;
+    height: 310px;
     background-color: #f4b01e;
   }
   .oggetto{
