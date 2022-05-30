@@ -80,6 +80,37 @@
   .oggetto6{
     width:60%
   }
+  .oggetto7{
+    width:20%;
+    
+  }
+  .oggetto8{
+    width:20%;
+  }
+  .oggetto9{
+    width:20%;
+  }
+  .oggetto10{
+    width:20%;
+  }
+  .oggetto11{
+    width:20%;
+  }
+  .oggetto12{
+    width:20%;
+  }
+  .oggetto13{
+    width:20%;
+  }
+  .oggetto14{
+    width:20%;
+  }
+  .oggetto15{
+    width:20%;
+  }
+  .oggetto16{
+    width:20%
+  }
   div.absolute {
     float: left;
     top: 80px;
@@ -88,10 +119,7 @@
     height: 310px;
     background-color: #f4b01e;
   }
-  .oggetto{
-    position: sticky;
-    top:0;
-  }
+  
   img{
     width:100%
     
