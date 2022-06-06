@@ -24,7 +24,7 @@
   
   button {
     border-radius: 15px;
-    background-color: #1eedf4;
+    background-color: #2d9ada;
     border: none;
     box-shadow: 10px 10px 5px #b8b6b6;
     color: #FFFFFF;
@@ -81,21 +81,7 @@
     80%{transform: rotate(0deg); }
     100%{transform: rotate(0deg); }
   }
-  .line{
-    width:75%;
-    height:8px;
-    background: #1eedf4;
-    animation:line_grow 5s infinite ease-in-out;
-
-    
-  }
-  @keyframes line_grow{
-    0%{width: 0%;}
-    50%{width:100%;opacity: 1;}
-    75%{width:100%;opacity: 0;}
-
-    100%{width:0%;}
-  }
+  
   /**/
   .oggetto1{
     width:60%
@@ -148,7 +134,6 @@
     width:20%
   }
   div.absolute {
-    float: left;
     top: 80px;
     right: 0;
     width: 200px;
@@ -162,6 +147,9 @@
   }
   iframe{
     border-style: none;
+  }
+  .str{
+    font-size: 28px;
   }
   
   @media only screen and (min-width: 600px) {
@@ -197,5 +185,6 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
   }
+
 
 

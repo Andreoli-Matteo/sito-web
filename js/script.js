@@ -13,3 +13,6 @@ function buttonfuction4(url){
 function buttonfuction5(url){
     document.getElementById("myframe").src=url;
 }
+function buttonfuction6(url){
+    document.getElementById("myframe").src=url;
+}
